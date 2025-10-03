@@ -1,20 +1,24 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ko">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>테스트 페이지</title>
-  <style>
-    body { font-family: system-ui, sans-serif; margin: 2rem; }
-    .card { max-width: 640px; padding: 1.5rem; border: 1px solid #ddd; border-radius: 14px; }
-    button { padding: .7rem 1rem; border-radius: 10px; border: 1px solid #ccc; cursor: pointer; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>TEST 페이지</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="card">
-    <h1>휴대폰에서 보이는지 테스트</h1>
-    <p>이 페이지를 배포해서 스마트폰에서 열어보세요!</p>
-    <button onclick="alert('동작 OK!')">버튼 테스트</button>
-  </div>
+  <main>
+    <h1>각 휴대폰 사이즈에 맞게 반응형으로</h1>
+    <p>
+      <span class="lead-line">
+        <span class="lead-lock">화면 너비에 따라 여백과 타이포그래피, 버튼 배열이 자연스럽게 변하도록 설계했습니다.</span>
+      </span>
+      모바일부터 작은 태블릿까지 문제없이 확인해보세요.
+    </p>
+    <div class="actions">
+      <button type="button" onclick="alert('반응형 구성이 완료되었습니다!')">확인</button>
+    </div>
+  </main>
 </body>
 </html>
+
