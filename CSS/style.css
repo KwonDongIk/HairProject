@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
   color: #1d1d1f;
-  background: linear-gradient(160deg, #f3f4f8 0%, #ffffff 55%, #eef2ff 100%);
+  background: linear-gradient(160deg, #f3f4f8 0%, #ffffff 85%, #eef2ff 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,6 +53,11 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
+}
+
+.price-list > li {
+  font-size: 20px;
+  text-align: center;
 }
 
 button {
